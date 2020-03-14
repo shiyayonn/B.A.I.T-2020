@@ -9,5 +9,5 @@ Testing Git
 6. To add this to your desired repository, type " git remote add origin "https://github.com/brykurt/B.A.I.T-2020.git".
 7. Enter, "git status" if you want to check the files that you have added to the staging area.
 8. Enter, "git commit -m 'Your message'".
-9. Enter, "git push origin master" to upload the files to your repository.
+9. Enter, "git push origin master" to upload the files to this repository.
 10. Check your Repository if the files have been pushed.
