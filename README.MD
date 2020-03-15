@@ -1,6 +1,7 @@
 Repository for B.A.I.T 2020
 
-Testing Git
+Starting with Git
+
 1. Create a folder on your desktop.
 2. Create an empty text file or any file inside the folder that you created or you can create via gitbash by entering this command, "touch hello.txt".
 3. Open your gitbash. 
@@ -11,3 +12,17 @@ Testing Git
 8. Enter, "git commit -m 'Your message'".
 9. Enter, "git push origin master" to upload the files to this repository.
 10. Check your Repository if the files have been pushed.
+
+
+Generating SSH keys
+
+1. Open gitbash then type, "ssh-keygen".
+2. Name your key and check the two files. The two files will have the same name, but, the other one will have an extension ".pub".
+3. Once you located the .pub file, edit it with your text editor then copy the code.
+4. Go to your Github Account, click settings, then on the left side of the screen, click "SSH and GPG keys".
+5. Click the "New SSH key" button.
+6. Name your key and paste the code that you copied from the .pub file. And then, click "Add SSH key" button.
+
+
+
+
