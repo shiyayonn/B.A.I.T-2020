@@ -1,0 +1,25 @@
+  static void Main()
+        {
+            int a, b;
+            Console.WriteLine("Enter Value for A:");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Value for B:");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Answer: " +get(ref a,b));
+            Console.ReadLine();
+        }
+
+        static int get(ref int a, int b) {
+          
+            int result;
+            if (a > b)
+            {
+                result = a;
+            }
+            else
+            {
+                result = b;
+            }
+            return result;
+
+        }
